@@ -1,0 +1,28 @@
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/0_createDatabase.sql
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/1_createUsersTable.sql
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/2_createPostsTable.sql
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/3_createComments.sql
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/4_seedData.sql
+
+/COPY users(email) FROM C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/users.csv CSV HEADER;
+/COPY posts from C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/posts.csv CSV HEADER;
+/COPY comments FROM C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/comentarios.csv CSV HEADER;
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/4_seedData.sql
+
+/COPY users(email) FROM 'C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/users.csv' csv HEADER;
+
+/COPY posts from 'C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/posts.csv' csv HEADER;
+
+/COPY comments FROM 'C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/comentarios.csv' csv HEADER;
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/data/posts.csv
+
+C:/Users/villa/intro_dev/programming-intro-lab-14-silvi2021/migrations/4_seedData.sql
+
+
+
